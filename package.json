@@ -1,0 +1,42 @@
+{
+  "name": "editor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "server:dev": "nodemon server.js",
+    "server:prod": "node server.js",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.23.2",
+    "codemirror": "^5.65.15",
+    "core-js": "^3.33.1",
+    "core-js-pure": "^3.33.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "monaco-editor": "^0.44.0",
+    "react": "^18.2.0",
+    "react-avatar": "^5.0.3",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "sonner": "^1.0.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "nodemon": "^3.0.1",
+    "vite": "^4.4.5"
+  }
+}

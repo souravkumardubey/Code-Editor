@@ -1,0 +1,160 @@
+.homePageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  /* max-height: calc(100vh - 20px); */
+  height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.logo {
+  max-height: 400px; /* Set a fixed maximum height in pixels */
+  max-width: 200px; /* Set a fixed maximum width in pixels */
+}
+
+.formWrapper {
+  background-color: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+  margin-bottom: 50px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLabel {
+  margin-top: 0px;
+  font-weight: 400;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background-color: #282a36;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn {
+  margin-bottom: 10px;
+  background-color: #1c1e29;
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: bold;
+  /* font-weight: 400px; */
+}
+
+.joinBtn:hover {
+  background-color: whitesmoke;
+  color: #1c1e29;
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.createNewBtn {
+  color: aqua;
+  text-decoration: none;
+  border-bottom: 1px solid aqua;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover {
+  color: aquamarine;
+}
+
+/* Editor Page */
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+  gap: 10px;
+}
+
+.aside {
+  background-color: #282a36;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideInner {
+  flex: 1;
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow: scroll;
+  max-height: 70%;
+}
+
+.client {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  font-weight: bold;
+  gap: 5px;
+  overflow: scroll;
+}
+
+.copyBtn,
+.leaveBtn {
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: #1c1e29;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.copyBtn:hover,
+.leaveBtn:hover {
+  background-color: aliceblue;
+  color: #1c1e29;
+}
+
+.logoWrap {
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+
+.logoImage {
+  height: 60px;
+}
+
+.editorWrap {
+  width: 100%;
+
+  overflow: scroll;
+}
+
+.CodeMirror {
+  min-height: 70%;
+
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
